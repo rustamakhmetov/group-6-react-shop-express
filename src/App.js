@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 
-import products from './constants/Products';
-import Catalog from './components/Catalog';
+import CatalogPage from './containers/CatalogPage';
 
 class App extends Component {
   render() {
 
     return (
-      <Catalog products={products} />
+      <CatalogPage />
     );
   }
 }
