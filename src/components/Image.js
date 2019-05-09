@@ -6,7 +6,7 @@ class Image extends Component {
 
     return (
       <img src={src} width={width} height={height} alt={alt} />
-    )
+    );
   }
 }
 

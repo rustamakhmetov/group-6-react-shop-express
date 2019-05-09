@@ -4,7 +4,7 @@ class Price extends Component {
   render() {
     return (
       <span>Price: {this.props.value}</span>
-    )
+    );
   }
 }
 

@@ -6,7 +6,7 @@ class TextBox extends Component {
       <span>
         {this.props.children}
       </span>
-    )
+    );
   }
 }
 

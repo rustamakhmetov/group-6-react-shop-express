@@ -19,7 +19,7 @@ class Catalog extends Component {
           }
         </ul>
       </div>
-    )
+    );
   }
 }
 

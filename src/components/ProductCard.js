@@ -16,7 +16,7 @@ class ProductCard extends Component {
         </TextBox>
         <Price value={price} />
       </div>
-    )
+    );
   }
 }
 
