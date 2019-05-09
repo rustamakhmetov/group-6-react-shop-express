@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
-import ProductCard from '~/src/components/ProductCard';
-
+import ProductCard from './ProductCard';
 
 class Catalog extends Component {
   render() {
