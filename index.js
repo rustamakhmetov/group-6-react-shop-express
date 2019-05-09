@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 
 import Image from '~src/components/Image';
 import products from '~src/constants/Products';
+import TextBox from "./src/components/TextBox";
 
 const product = products[0];
 
 ReactDOM.render(
-  <Image src={product.imageUrl} width={100} height={100} alt={product.title} />,
+  <TextBox>
+    Hello, world!
+  </TextBox>,
   document.getElementById('root')
 );
