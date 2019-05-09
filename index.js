@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import products from '~src/constants/Products';
-
-import Image from '~src/components/Image';
-import TextBox from "./src/components/TextBox";
-import Price from "./src/components/Price";
-
-const product = products[0];
+import App from './App';
 
 ReactDOM.render(
-  <Price value={10} />,
+  <App />,
   document.getElementById('root')
 );
